@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>095F0D4A-D95E-405B-9252-45112D85F2BD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F76BEDA5-19DF-4390-A1C9-F76309C55B76</key>
+		<string>https://github.com/needbee/nbhighlightbutton.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>demo/demo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F76BEDA5-19DF-4390-A1C9-F76309C55B76</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/needbee/nbhighlightbutton.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F76BEDA5-19DF-4390-A1C9-F76309C55B76</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F76BEDA5-19DF-4390-A1C9-F76309C55B76</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NBHighlightButton</string>
+		</dict>
+	</array>
+</dict>
+</plist>
