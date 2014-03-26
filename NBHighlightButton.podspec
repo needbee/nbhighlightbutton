@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "NBHighlightButton"
-  s.version      = "1.0"
+  s.version      = "1.0.0"
   s.summary      = "Allows changing the background color of the button when highlighted (i.e. touch down)"
 
   s.description  = <<-DESC
