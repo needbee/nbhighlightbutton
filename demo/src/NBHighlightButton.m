@@ -8,6 +8,12 @@
 
 #import "NBHighlightButton.h"
 
+@interface NBHighlightButton ()
+
+-(void)updateButtonColor;
+
+@end
+
 @implementation NBHighlightButton
 
 -(void)setButtonColor:(UIColor *)buttonColor {
@@ -16,11 +22,24 @@
 }
 
 -(void)setHighlighted:(BOOL)highlighted {
-    if(highlighted) {
+    [super setHighlighted:highlighted];
+    [self updateButtonColor];
+}
+
+-(void)setEnabled:(BOOL)enabled {
+    [super setEnabled:enabled];
+    [self updateButtonColor];
+}
+
+-(void)updateButtonColor {
+    if(!self.enabled) {
+        self.backgroundColor = _buttonDisabledColor;
+    } else if(self.highlighted) {
         self.backgroundColor = _buttonHighlightColor;
     } else {
         self.backgroundColor = _buttonColor;
     }
+
 }
 
 @end

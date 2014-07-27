@@ -21,8 +21,13 @@
 {
     [super viewDidLoad];
 
-    _button.buttonColor = [UIColor lightGrayColor];
-    _button.buttonHighlightColor = [UIColor darkGrayColor];
+    _button.buttonColor = [UIColor blueColor];
+    _button.buttonHighlightColor = [UIColor yellowColor];
+    _button.buttonDisabledColor = [UIColor grayColor];
+}
+
+- (IBAction)buttonTapped:(id)sender {
+    _button.enabled = NO;
 }
 
 @end
