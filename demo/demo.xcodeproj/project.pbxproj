@@ -21,7 +21,7 @@
 		033279B818D4FF8700807227 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0332799A18D4FF8700807227 /* UIKit.framework */; };
 		033279C018D4FF8700807227 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 033279BE18D4FF8700807227 /* InfoPlist.strings */; };
 		033279C218D4FF8700807227 /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033279C118D4FF8700807227 /* demoTests.m */; };
-		033279CE18D4FF9200807227 /* NBHighlightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 033279CD18D4FF9200807227 /* NBHighlightButton.m */; };
+		03AA683C1985438C001DD1AA /* NBHighlightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AA683B1985438C001DD1AA /* NBHighlightButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		033279BD18D4FF8700807227 /* demoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "demoTests-Info.plist"; sourceTree = "<group>"; };
 		033279BF18D4FF8700807227 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		033279C118D4FF8700807227 /* demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoTests.m; sourceTree = "<group>"; };
-		033279CC18D4FF9200807227 /* NBHighlightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBHighlightButton.h; sourceTree = "<group>"; };
-		033279CD18D4FF9200807227 /* NBHighlightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBHighlightButton.m; sourceTree = "<group>"; };
+		03AA683A1985438C001DD1AA /* NBHighlightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBHighlightButton.h; sourceTree = "<group>"; };
+		03AA683B1985438C001DD1AA /* NBHighlightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBHighlightButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 				033279BB18D4FF8700807227 /* demoTests */,
 				0332799518D4FF8700807227 /* Frameworks */,
 				0332799418D4FF8700807227 /* Products */,
-				033279CB18D4FF9200807227 /* src */,
+				03AA68391985438C001DD1AA /* src */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,13 +156,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		033279CB18D4FF9200807227 /* src */ = {
+		03AA68391985438C001DD1AA /* src */ = {
 			isa = PBXGroup;
 			children = (
-				033279CC18D4FF9200807227 /* NBHighlightButton.h */,
-				033279CD18D4FF9200807227 /* NBHighlightButton.m */,
+				03AA683A1985438C001DD1AA /* NBHighlightButton.h */,
+				03AA683B1985438C001DD1AA /* NBHighlightButton.m */,
 			);
-			path = src;
+			name = src;
+			path = ../src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +266,7 @@
 			files = (
 				033279AD18D4FF8700807227 /* NBViewController.m in Sources */,
 				033279A718D4FF8700807227 /* NBAppDelegate.m in Sources */,
-				033279CE18D4FF9200807227 /* NBHighlightButton.m in Sources */,
+				03AA683C1985438C001DD1AA /* NBHighlightButton.m in Sources */,
 				033279A318D4FF8700807227 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,6 +474,7 @@
 				033279C718D4FF8700807227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		033279C818D4FF8700807227 /* Build configuration list for PBXNativeTarget "demoTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +483,7 @@
 				033279CA18D4FF8700807227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

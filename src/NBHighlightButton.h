@@ -12,5 +12,6 @@
 
 @property (nonatomic,retain) UIColor *buttonColor;
 @property (nonatomic,retain) UIColor *buttonHighlightColor;
+@property (nonatomic,retain) UIColor *buttonDisabledColor;
 
 @end
